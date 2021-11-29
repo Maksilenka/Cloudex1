@@ -1,0 +1,147 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2E1449;
+  ;
+}
+
+/* Header styles start*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 52px;
+}
+
+.menu__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__item{
+  margin-right: 24px;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+.menu__link{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #2E1449;
+}
+
+.menu__link:hover, .menu__link:focus, .menu__link:active{
+  opacity: 0.5;
+}
+/* Header styles end*/
+
+/* Main styles start*/
+
+.intro{
+  height: 100vh;
+  background: url(./img/Vector.png), url(./img/Vector2.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom right ;
+  background-size: auto;
+  padding-top: 413px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+wrap-main{
+  
+}
+
+.nav {
+}
+.logo {
+}
+.menu-top {
+}
+.menu__item {
+}
+.wrap {
+}
+.title {
+}
+.subtitle {
+}
+.wrap__form {
+}
+.wrap__form-text {
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+}
+.wrap__form-input {
+}
+.input{
+  width: 399px;
+  height: 53.2px;
+  border-radius: 5px;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.button {
+  width: 399px;
+  height: 53.2px;
+  background: #7400E8;
+  border-radius: 5px;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.wrap__form-comment {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.terms, .privacy {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.line{
+  background: #7400E8;
+  height: 23px;
+}
+
